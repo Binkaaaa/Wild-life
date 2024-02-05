@@ -199,3 +199,40 @@
 .threat_2:hover {
     transform: scale(1.05);
 }
+
+
+.venues {
+    padding: 90px 20px 120px 20px;
+}
+
+.venues h3 {
+    font-size: 30px;
+    line-height: 40px;
+}
+
+
+.facts_leopard_1,
+.facts_leopard_2,
+.threats_leopards,
+.threat_1,
+.threat_2 {
+    padding: 5% 20px;
+}
+
+
+.threat_1,
+.threat_2 {
+    width: 100%;
+    box-sizing: border-box;
+    margin: 20px 0;
+}
+
+/* Responsive media queries for small screens */
+@media only screen and (max-width: 768px) {
+
+    /* Venues section styles for small screens */
+    .venues {
+        padding: 90px 10px 120px 10px;
+    }
+}
+

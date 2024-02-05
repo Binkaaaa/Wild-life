@@ -86,7 +86,8 @@
     padding: 40px;
     background:rgba(255, 255, 255);
   }
-  
+
+
   .contactForm h2{
     font-size: 25px;
     color: #333;
@@ -153,4 +154,28 @@
     .container .contentInfo .contactForm{
       width: 100%;
     }
+  }
+
+    
+  @media (max-width: 768px){
+    .contact{
+      padding: 50px;
+    }
+    .container{
+      flex-direction: column;
+    }
+    .container .contentInfo{
+      margin-bottom: 40px;
+    }
+    .contactForm{
+      width: 80%;
+    }
+  }
+
+    
+  @media (max-width: 425px){
+    .container .contentInfo .box .text h3{
+      font-size: 15px;
+    }
+
   }

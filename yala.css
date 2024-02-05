@@ -125,6 +125,7 @@ nav button{
   display: block;
 }
 
+
 /* Footer */
 footer {
   color: #fff;
@@ -426,6 +427,14 @@ footer h2{
   cursor: pointer;
 }
 
+@media (max-width: 768px) {
+  .yala-box {
+      width: 100%;
+  }
+}
+
+
+
 .yala_map {
   align-items: center;
   margin-bottom: 100px; 
@@ -456,3 +465,4 @@ footer h2{
   padding-left:10px;
   padding-top: 50px;
 }
+
